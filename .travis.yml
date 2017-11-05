@@ -1,0 +1,17 @@
+after_script:
+  - docker images
+
+before_script:
+  - cd "$VERSION"
+  - IMAGE="z-way:${VERSION/\//-}"
+
+env:
+  - VERSION=2
+
+language: bash
+
+script:
+  - docker build -t "$IMAGE" .
+  - docker run --rm "$IMAGE" z-way-server -h | grep "Z-Way version v${VERSION}"
+
+services: docker
