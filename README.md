@@ -1,9 +1,12 @@
+
+---
+⚠️ This image is not maintained anymore. Check [forks](https://github.com/ruimarinho/docker-z-way/network/members) for possibly updated images.
+
+---
+
 # ruimarinho/z-way
 
 A Z-Way server docker image.
-
-[![build status][travis-image]][travis-url]
-[![ruimarinho/z-way][docker-pulls-image]][docker-hub-url] [![ruimarinho/z-way][docker-stars-image]][docker-hub-url] [![ruimarinho/z-way][docker-size-image]][docker-hub-url] [![ruimarinho/z-way][docker-layers-image]][docker-hub-url]
 
 ## Supported tags and respective `Dockerfile` links
 
@@ -50,9 +53,3 @@ This image is officially supported on Docker version 1.12, with support for olde
 [License information](https://github.com/ruimarinho/docker-z-way/blob/master/LICENSE) for the [ruimarinho/docker-z-way][docker-hub-url] docker project.
 
 [docker-hub-url]: https://hub.docker.com/r/ruimarinho/z-way
-[docker-layers-image]: https://img.shields.io/imagelayers/layers/ruimarinho/z-way/latest.svg?style=flat-square
-[docker-pulls-image]: https://img.shields.io/docker/pulls/ruimarinho/z-way.svg?style=flat-square
-[docker-size-image]: https://img.shields.io/imagelayers/image-size/ruimarinho/z-way/latest.svg?style=flat-square
-[docker-stars-image]: https://img.shields.io/docker/stars/ruimarinho/z-way.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/ruimarinho/docker-z-way.svg?style=flat-square
-[travis-url]: https://travis-ci.org/ruimarinho/docker-z-way
